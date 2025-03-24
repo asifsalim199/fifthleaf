@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/asifsalim199/fifthleaf/static/css/main.ae42ac5f.css",
-    "main.js": "/asifsalim199/fifthleaf/static/js/main.d1160c55.js",
-    "index.html": "/asifsalim199/fifthleaf/index.html",
-    "main.ae42ac5f.css.map": "/asifsalim199/fifthleaf/static/css/main.ae42ac5f.css.map",
-    "main.d1160c55.js.map": "/asifsalim199/fifthleaf/static/js/main.d1160c55.js.map"
+    "main.css": "/fifthleaf/static/css/main.ae42ac5f.css",
+    "main.js": "/fifthleaf/static/js/main.d1160c55.js",
+    "index.html": "/fifthleaf/index.html",
+    "main.ae42ac5f.css.map": "/fifthleaf/static/css/main.ae42ac5f.css.map",
+    "main.d1160c55.js.map": "/fifthleaf/static/js/main.d1160c55.js.map"
   },
   "entrypoints": [
     "static/css/main.ae42ac5f.css",
