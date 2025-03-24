@@ -1,7 +1,7 @@
 {
   "name": "landingpage-react-template",
   "private": true,
-  "homepage": "https://yourusername.github.io/repo-name",
+"homepage": "https://asifsalim199.github.io/fifthleaf",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -24,6 +24,7 @@
     "extends": "react-app"
   },
   "browserslist": {
+
     "production": [
       ">0.2%",
       "not dead",
