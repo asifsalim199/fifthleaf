@@ -1,0 +1,184 @@
+{
+  "Header": {
+    "title": "FIFTH LEAF",
+    "paragraph": "Welcome to Fifth Leaf, your trusted source for high-quality, natural food products. We bring you Instant Coconut Powder, our first product, crafted for convenience without compromising on purity and taste."
+  },
+  "About": {
+    "paragraph": "At Fifth Leaf, we are passionate about delivering the purest, most natural ingredients to enhance your everyday cooking experience. We understand that in today’s fast-paced world, convenience should never come at the cost of quality. That’s why we are committed to providing preservative-free, chemical-free, and easy-to-use food products that maintain their authentic taste and nutritional value. Our journey begins with Instant Coconut Powder—a versatile, nutrient-rich product that simplifies cooking without compromising on freshness. Whether you're making creamy curries, rich desserts, or refreshing beverages, our coconut powder ensures you get the purest coconut goodness in an instant",
+    "Why": [
+      "100% Natural Ingredients ",
+      "Pure & Fresh",
+      "Convenient & Easy-to-Use",
+      "Nutrient-Rich"
+    ],
+    "Why2": [
+      "Sustainably Sourced",
+      "Versatile & Multipurpose",
+      "Expanding Product Range",
+      "Commitment to Quality"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-water",
+      "name": "Kerala Coconut Fish Curry",
+      "text": "A mild, coconut-based fish curry cooked with mustard seeds, green chilies, and fresh fish."
+    },
+    {
+      "icon": "fa ",
+      "name": "South Indian Style vegetable Stew",
+      "text": "A comforting dish with potatoes, carrots, and beans cooked in coconut milk with mild spices."
+    },
+    {
+      "icon": "fa",
+      "name": "Coconut Milk Pulao",
+      "text": "Fragrant basmati rice cooked with coconut milk, whole spices, and vegetables for a rich, flavorful dish."
+    },
+    {
+      "icon": "fa",
+      "name": "Coconut Pancakes ",
+      "text": "Soft, fluffy pancakes made with coconut milk for a tropical twist."
+    },
+    {
+      "icon": "fa ",
+      "name": "Payasam/Kheer",
+      "text": "A rich, creamy dessert made with rice, jaggery, and coconut milk."
+    },
+    {
+      "icon": "fa ",
+      "name": "Vegan Coconut Ice Cream",
+      "text": "A dairy-free, creamy ice cream made using coconut milk and natural sweeteners."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}
