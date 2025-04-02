@@ -8,7 +8,6 @@ export const Services = (props) => {
           <h2>Look some recipes</h2>
           <p>
           Coconut milk is a versatile ingredient that adds a creamy, rich texture to various dishes. Here are some delicious recipes you can try using Fifth Leaf Instant Coconut Powder
-
           </p>
         </div>
         <div className="row">
