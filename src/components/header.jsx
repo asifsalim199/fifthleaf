@@ -12,12 +12,12 @@ export const Header = (props) => {
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
                 </h1>
-                <h3>
+                <h3 style={{color:'black'}}>
                 Pure, Natural, Instant – The Fifth Leaf Promise
                 </h3>
                 <p style={{color:"black"}}>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  href="#features"
+                  href="#about"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                  Explore

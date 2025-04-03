@@ -67,32 +67,32 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-water",
+      "image": "/img/fishcurry.jpg",
       "name": "Kerala Coconut Fish Curry",
       "text": "A mild, coconut-based fish curry cooked with mustard seeds, green chilies, and fresh fish."
     },
     {
-      "icon": "fa ",
+      "image": "/img/stew.jpg",
       "name": "South Indian Style vegetable Stew",
       "text": "A comforting dish with potatoes, carrots, and beans cooked in coconut milk with mild spices."
     },
     {
-      "icon": "fa",
+      "image": "/img/pulao.jpg",
       "name": "Coconut Milk Pulao",
       "text": "Fragrant basmati rice cooked with coconut milk, whole spices, and vegetables for a rich, flavorful dish."
     },
     {
-      "icon": "fa",
-      "name": "Coconut Pancakes ",
+      "image": "/img/pancake.jpg",
+       "name": "Coconut Pancakes ",
       "text": "Soft, fluffy pancakes made with coconut milk for a tropical twist."
     },
     {
-      "icon": "fa ",
+      "image": "/img/payasam.jpg",
       "name": "Payasam/Kheer",
       "text": "A rich, creamy dessert made with rice, jaggery, and coconut milk."
     },
     {
-      "icon": "fa ",
+      "image": "/img/icecream.jpg",
       "name": "Vegan Coconut Ice Cream",
       "text": "A dairy-free, creamy ice cream made using coconut milk and natural sweeteners."
     }
@@ -152,12 +152,12 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "9/119/C, Ground floor, Near Railway gate, Neduvannoor, chowara, Chengamanad, Aluva, Ernakulam, Kerala -683571 ",
+    "phone": "+91 99955 45868",
+    "email": "fifthleaffoodproduct@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "instagram": "youtube.com"
   },
   "Features": [
     {
