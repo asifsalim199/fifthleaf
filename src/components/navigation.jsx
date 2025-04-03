@@ -1,66 +1,62 @@
 import React from "react";
 
-export const Navigation = (props) => {
+export const Navigation = () => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
-        <div className="navbar-header">
-          {/* Flex Container for Logo, Brand, and Navigation */}
-          <div style={{ display: "flex", alignItems: "center", width: "100%", justifyContent: "space-between" }}>
-            
-            {/* Logo Image */}
-            <div style={{ display: "flex", alignItems: "center" }}>
-              <img
-                src="/img/logo.png"
-                alt="Logo"
-                width="80"
-                height="80"
-                style={{ marginRight: "10px", verticalAlign: "middle" }}
-              />
-              {/* Brand Name */}
-              <h1 style={{ color: "black", margin: 0, width:250 }}>FIFTH LEAF LLP</h1>
-            </div>
+      <div className="container"> 
+        <div className="navbar-header" >
 
-            {/* Navbar Toggle Button for Mobile */}
-            <button
-              type="button"
-              className="navbar-toggle collapsed"
-              data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1"
-            >
-              <span className="sr-only">Toggle navigation</span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-            </button>
+          {/* Navbar Toggle Button */}
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px", width: "100%" }}>
+  {/* Logo & Text */}
+  <div style={{ display: "flex", alignItems: "center" }}>
+    <img
+      src="/img/logo.png"
+      alt="Logo"
+      width="80"
+      height="80"
+      style={{ marginRight: "10px" }}
+    />
+    <h1 style={{ margin: 10, color: "black", fontSize: 26 }}>FIFTH LEAF LLP</h1>
+  </div>
 
-            {/* Navigation Links */}
-            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1"style={{marginLeft:'500'}}>
-              <ul className="nav navbar-nav" style={{ display: "flex", gap: "20px" }}>
-                {/* <li>
-                  <a href="#features" className="page-scroll">
-                    Features
-                  </a>
-                </li> */}
-                <li>
-                  <a href="#about" className="page-scroll">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a href="#services" className="page-scroll">
-                    Recipes
-                  </a>
-                </li>
-                <li>
-                  <a href="#contact" className="page-scroll">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
+  {/* Navbar Toggle Button */}
+  <button
+    type="button"
+    className="navbar-toggle collapsed"
+    data-toggle="collapse"
+    data-target="#navbar-menu"
+    aria-expanded="false"
+  >
+    <span className="sr-only">Toggle navigation</span>
+    <span className="icon-bar"></span>
+    <span className="icon-bar"></span>
+    <span className="icon-bar"></span>
+  </button>
+</div>
 
-          </div>
+      
+         
+         </div> 
+
+        <div className="collapse navbar-collapse" id="navbar-menu">
+          <ul className="nav navbar-nav navbar-right" style={{ margin:15}}>
+            <li>
+              <a href="#about" className="page-scroll">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#services" className="page-scroll">
+                Recipes
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="page-scroll">
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
