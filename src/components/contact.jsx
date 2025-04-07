@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import ContactForm from "./contactform";
 
 const initialState = {
   name: "",
@@ -39,6 +40,7 @@ export const Contact = (props) => {
     <div>
       <div id="contact">
         <div className="container">
+          
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
@@ -48,56 +50,52 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Name"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                </div>
-                <div className="form-group">
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    rows="4"
-                    placeholder="Message"
-                    required
-                    onChange={handleChange}
-                  ></textarea>
-                  <p className="help-block text-danger"></p>
-                </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
-                </button>
-              </form>
+              <ContactForm />
+              {/* <form
+  action="https://formspree.io/f/xpwpodrj" 
+  method="POST"
+>
+  <div className="row">
+    <div className="col-md-6">
+      <div className="form-group">
+        <input
+          type="text"
+          name="name"
+          className="form-control"
+          placeholder="Name"
+          required
+        />
+      </div>
+    </div>
+    <div className="col-md-6">
+      <div className="form-group">
+        <input
+          type="email"
+          name="email"
+          className="form-control"
+          placeholder="Email"
+          required
+        />
+      </div>
+    </div>
+  </div>
+  <div className="form-group">
+    <textarea
+      name="message"
+      className="form-control"
+      rows="4"
+      placeholder="Message"
+      required
+    ></textarea>
+  </div>
+  <button type="submit" className="btn btn-custom btn-lg">
+    Send Message
+  </button>
+</form> */}
+
             </div>
           </div>
+          
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
@@ -151,14 +149,14 @@ export const Contact = (props) => {
         </div>
       </div>
       <div id="footer">
-        {/* <div className="container text-center">
+        <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
+            &copy; 2024 Fifth Leaf LLP{" "}
+            {/* <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
-            </a>
+            </a> */}
           </p>
-        </div> */}
+        </div>
       </div>
     </div>
   );
